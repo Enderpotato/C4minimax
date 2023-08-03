@@ -1,0 +1,47 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#root {
+    display: flex;
+}
+
+canvas {
+    display: block;
+    margin: 0;
+    background-color: transparent;
+}
+
+.win-message {
+    display: block;
+    font-size: 50px;
+    font-weight: 200px;
+}
+
+#player-ui {
+    background-color: yellow;
+    width: 100%;
+    align-items: center;
+    padding: 10px;
+}
+
+.depth-slider,
+.depth-score {
+    display: inline;
+    margin: 5px;
+}
+
+.restart-button {
+    display: relative;
+    bottom: 30%;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: lime;
+    border-radius: 7px;
+    border: solid 3px purple;
+    background-color: purple;
+    cursor: pointer;
+}
